@@ -1,0 +1,165 @@
+/* колір основного тексту #212121; */
+/* колір підтексу #757575; */
+/* колір при настисканю hover #2196F3; */
+/* колір в адресі wedstudio #FFFFFF
+колір тф і мейл color: rgba(255, 255, 255, 0.6); */
+/* колір лого #2196F3 */
+/* колір обводка buttom #F5F4F4 */
+:root {
+  --address-logo-color: #2196f3;
+  --primaty-text-color: #212121;
+  --tittle-tex-color: #757575;
+}
+body {
+  background-color: #e5e5e5;
+  color: var(--tittle-tex-color);
+
+  font-family: Roboto, sans-serif;
+}
+ul {
+  list-style: none;
+}
+/* HEADER */
+/* logo */
+.starter {
+  background-color: #ffffff;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo-element {
+  color: #2196f3;
+}
+.logo-accent {
+  color: var(--primaty-text-color);
+}
+/* Site-nav */
+.site-nav .link {
+  color: var(--primaty-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--address-logo-color);
+}
+.site-contact .link {
+  color: var(--tittle-tex-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-contact .link:hover,
+.site-contact .link:focus {
+  color: var(--address-logo-color);
+}
+/* Class-Tittle */
+.logo,
+.site-contact,
+.site-nav {
+  cursor: pointer;
+}
+
+.section-tittle,
+.hero,
+.features-tittle,
+.work-tittle,
+.work-name {
+  color: var(--primaty-text-color);
+}
+.section-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-tittle,
+.work-info {
+  color: var(--tittle-tex-color);
+}
+.section {
+  background-color: #2f303a;
+}
+.section-hero {
+  background-color: #e5e5e5;
+}
+.hero {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.hero-tittle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.features-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.work {
+  background-color: #f5f4fa;
+}
+.work-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+/* ADDRESS */
+.address-info {
+  background-color: #2f303a;
+}
+.address-logo-element {
+  color: var(--address-logo-color);
+}
+.address-logo-accent {
+  color: #ffffff;
+}
+.address-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-street {
+  color: #ffffff;
+}
+/* BUTTON */
+button {
+  font-family: inherit;
+}
+.section-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* Portfolio */
+.work-menu-info {
+  color: var(--primaty-text-color);
+}
+.work-classification {
+  color: var(--tittle-tex-color);
+}
