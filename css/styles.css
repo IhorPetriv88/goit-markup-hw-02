@@ -141,6 +141,11 @@ ul {
 .address-street {
   color:var(--starter-color);
 }
+.address-street,
+.address-contact:hover,
+.address-contact:focus {
+  color: var(--address-logo-color)
+}
 /* BUTTON */
 button {
   font-family: inherit;
