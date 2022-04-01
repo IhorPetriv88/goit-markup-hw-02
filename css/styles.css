@@ -141,7 +141,8 @@ ul {
 .address-street {
   color:var(--starter-color);
 }
-.address-street,
+.address-street:hover,
+.address-street:focus,
 .address-contact:hover,
 .address-contact:focus {
   color: var(--address-logo-color)
